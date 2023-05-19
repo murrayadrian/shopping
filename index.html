@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="left">
+                <h1>VinhShop</h1>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">More</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <input type="text" placeholder="Search...">
+                <div class="cart">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/001/504/962/small/shopping-cart-icon-free-vector.jpg" alt="">
+                    <div class="product-quantity">0</div>
+                </div>
+                <div class="avatar"></div>
+            </div>
+        </div>
+        <div class="bread-crumbs">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                      </svg>                      
+                </li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                      </svg>                      
+                </li>
+            </ul>
+        </div>
+
+        <div class="product-container">
+            <div class="left">
+                <div class="selected-product"></div>
+                <div class="product-variations">
+                    <div class="child"></div>
+                    <div class="child"></div>
+                    <div class="child"></div>
+                </div>
+            </div>
+            <div class="right">
+                <input id="product-id" type="hidden">
+                <div class="title">Lorem atque veritatis voluptatum inventore doloribus beatae aut animi nisi repellat vitae, est repudiandae esse eius molestiae!</div>
+                <div class="made-by">BY COSMO DESIGN</div>
+                <div class="product-price">
+                    <div class="price">$67</div>
+                    <div class="saleoff">
+                        <div class="percentage">SAVE 25%</div>
+                        <div>Inclusive deal of the day</div>
+                    </div>
+                </div>
+                <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, officiis.</div>
+
+
+                <button class="btn" type="button">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

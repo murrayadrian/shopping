@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+   padding: 33px 40px 0px 40px;
+   height: auto;
+   border: 1px solid black;
+   width: 60%;
+   margin: 0 auto;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    margin-bottom: 50px;
+}
+.navbar .left {
+    width: 60%;
+    display: flex;
+}
+.navbar .right {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 0px 10px;
+    border: 1px solid #00000033;
+}
+.cart img{
+    width: 20px;
+    height: 20px;
+}
+.navbar .right input {
+    width:40%;
+    height: 30px;
+    border-radius: 10px;
+}
+ul {
+    list-style: none;
+    line-height: 40px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links ul li:nth-child(1) {
+    margin-left: 20px;
+}
+.nav-links ul li:nth-child(4) {
+    margin-left: 60px;
+    position: relative;
+}
+
+.nav-links ul li:nth-child(4)::after {
+    content:"";
+    background-image: url("img/down-arrow.svg");
+    position: absolute;
+    right:0px;
+    top:15px;
+    width: 12px;
+    height: 12px;
+}
+.nav-links ul li a{
+    padding: 5px 20px;
+    font-size: 20px;
+}
+.avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+.bread-crumbs ul {
+    padding-left: 0px;
+}
+.bread-crumbs ul svg {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+}
+.bread-crumbs {
+    margin-bottom: 30px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.product-container .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 40%;
+}
+
+.product-variations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selected-product {
+    background-image: url("img/product.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 375px;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+.child {
+    width: 80px;
+    height: 80px;
+    background-image: url("img/v1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.product-container .right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 20px;
+}
+.product-price {
+    display: flex;
+    gap: 10px;
+}
+.title{
+    font-weight: 700;
+    font-size: 32px;
+}
+.made-by {
+    font-weight: 700;
+    font-size: 16px;
+    color: #1565C0;
+}
+.product-price .price {
+    font-weight: 700;
+    font-size: 32px;
+    color: #1565C0;
+}
+.saleoff{
+    display: flex;
+    flex-direction: column;
+}
+.saleoff .percentage {
+    font-weight: 700;
+    font-size: 20px;
+    color: #29B6F6;
+}
+
+.saleoff .description {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+    padding: 10px 10px;
+    background-color: #1565C0;
+    align-self: center;
+    border-radius: 12px;
+}
